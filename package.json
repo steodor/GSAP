@@ -47,6 +47,6 @@
       "url": "https://github.com/greensock/GSAP" 
    },
    "browserify": {
-      "transform": [["babelify", { "presets": ["@babel/preset-env"] }]]
+      "transform": [["babelify", { "presets": ["es2015", "react"] }]]
    }
 }
